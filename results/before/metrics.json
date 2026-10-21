@@ -1,0 +1,38 @@
+{
+  "stage": "baseline",
+  "seed": 42,
+  "epochs": 15,
+  "selected_epoch": 14,
+  "selection_rule": "minimum validation loss",
+  "training_count": 50000,
+  "validation_count": 10000,
+  "test_count": 10000,
+  "new_images_count": 0,
+  "batch_size": 128,
+  "optimizer": "Adam",
+  "learning_rate": 0.0010000000474974513,
+  "parameters": 39066,
+  "fingerprints": {
+    "train_indices": "92822f9028b49113118292334f59a28c418073bf8c02d74580bc1452c060bf42",
+    "validation_indices": "6a00d1152344f0f8b5af4df1a9e8ea0a55679a84b870990ee8191c5f13d089aa",
+    "test_images": "c867c93ff95360594e8ec3287995350b824dd110b11595c0e13d5423f621867a",
+    "test_labels": "3d0e6c6ea990b53b6f8f500a41cac93881d981b315f84578b7d915342ade01e9"
+  },
+  "test": {
+    "accuracy": 0.8982999920845032,
+    "loss": 0.2920234501361847
+  },
+  "selected_validation": {
+    "accuracy": 0.9195600152015686,
+    "loss": 0.21727818250656128,
+    "val_accuracy": 0.9031999707221985,
+    "val_loss": 0.27352502942085266
+  },
+  "created_utc": "2026-10-21T08:04:06.090075+00:00",
+  "versions": {
+    "python": "3.11.14",
+    "tensorflow": "2.20.0",
+    "numpy": "2.4.6",
+    "keras": "3.15.1"
+  }
+}
